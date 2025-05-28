@@ -9,22 +9,16 @@
 <body>
     <div class="wrapper">
         <div class="container">
+            <!-- <h1 id="test">JS World Weather APP</h1> -->
             <h1>JS World Weather APP</h1>
-            <form>
-                <input type="text" placeholder="都市名を英語で入力">
+            <form id="weather-form">
+                <input type="text" id="city-input" placeholder="都市名を英語で入力">
                 <button type="submit">Get Weather</button>
             </form>
-            <div class="results">
-                <div class="results-country">Japan</div>
-                <div class="results-city">Tokyo</div>
-                <div class="results-temp">20°C<span>℃</span></div>
-                <div class="results-condition">
-                    <img src="./images/sunny-icon.png" alt="icon">
-                    <span>Sunny</span>
-                </div>
-            </div>
+            <div id="weather-results"></div>
         </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
 
